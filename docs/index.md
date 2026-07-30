@@ -1,5 +1,9 @@
 # Power BI Bootcamp
 
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![PL-300](https://img.shields.io/badge/PL--300-Aligned-success)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+![Power BI](https://img.shields.io/badge/Power%20BI-Bootcamp-yellow)
 Welcome to the **Power BI Bootcamp: From Beginner to Job-Ready Data Analyst**.
 
 ---

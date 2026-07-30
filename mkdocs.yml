@@ -2,24 +2,17 @@ site_name: Power BI Bootcamp
 site_description: From Beginner to Job-Ready Data Analyst
 site_author: Krish Sabapathy
 site_url: https://sabakrish.github.io/powerbi-bootcamp/
+
 repo_name: sabakrish/powerbi-bootcamp
 repo_url: https://github.com/sabakrish/powerbi-bootcamp
+
+docs_dir: docs
 
 theme:
   name: material
   language: en
 
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.highlight
-    - search.share
-    - content.code.copy
-
   palette:
-
     - scheme: default
       primary: blue
       accent: indigo
@@ -34,12 +27,54 @@ theme:
         icon: material/weather-sunny
         name: Light mode
 
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+
 markdown_extensions:
   - admonition
   - attr_list
   - tables
+  - footnotes
   - toc:
       permalink: true
 
 nav:
   - Home: index.md
+
+  - Getting Started:
+      - Overview: getting-started.md
+
+  - Roadmap: roadmap.md
+
+  - Modules:
+      - Overview: modules/index.md
+
+  - Labs:
+      - Overview: labs/index.md
+
+  - Projects:
+      - Overview: projects/index.md
+
+  - Assignments:
+      - Overview: assignments/index.md
+
+  - Quizzes:
+      - Overview: quizzes/index.md
+
+  - Downloads:
+      - Overview: downloads/index.md
+
+  - Resources:
+      - Overview: resources/index.md
+
+  - FAQ:
+      - Overview: faq/index.md
+
+  - Glossary:
+      - Overview: glossary/index.md
